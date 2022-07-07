@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mbp</title>
+    <script type="text/javascript" src="/countly.min.js"></script>
+    <script type="text/javascript" src="./dist/init.min.js"></script>
+    <script type="text/javascript" src="./dist/userIdMap.min.js"></script>
+    <script type="text/javascript" src="./dist/customEventListener.min.js"></script>
+    <script type="text/javascript">
+      new CustomEventListener({
+        runEnv: 'PC',
+        categoryName: 'test-category'
+      });
+    </script>
+  </head>
+  <body>
+    <img
+      class="pic"
+      src="https://a.jpg"
+    >
+    <video
+      controls
+      id="v"
+      src="https://b.mp4"
+    ></video>
+    <img
+      class="pic"
+      src="https://c.jpg"
+    >
+    <video
+      controls
+      src="https://d.mp4"
+    ></video>
+    <script type="text/javascript" src="./dist/customEventDispatcher.min.js"></script>
+  </body>
+</html>
